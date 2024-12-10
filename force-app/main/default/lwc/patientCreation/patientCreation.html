@@ -1,0 +1,25 @@
+<template>
+
+    <lightning-card title="patient creation">
+
+
+        <div> 
+            <lightning-input  label="Name" onchange={handleNameChange}></lightning-input>
+            <lightning-input label="Age" onchange={handleAgeChange}></lightning-input>
+            <lightning-input label="Contact no" onchange={handleContactChange}></lightning-input>
+        
+            <lightning-input label="patient Email" onchange={pathandleEmailChange}></lightning-input>
+            <lightning-input label="emergency Contact Email" onchange={emerhandleEmailChange}></lightning-input>
+            <lightning-input label="Admitted data"  type="date" onchange={handleAdmittedChange}></lightning-input>
+            <lightning-input label="Discharged date" type="date" onchange={handleDischargedChange}></lightning-input>
+            <lightning-input label="billpaid or not" type="checkbox" onchange={handleBillChange}></lightning-input>
+
+
+
+        </div>
+        <div>  
+            <lightning-button label="create" onclick={createPat}></lightning-button>
+        </div>
+    </lightning-card>
+    
+</template>

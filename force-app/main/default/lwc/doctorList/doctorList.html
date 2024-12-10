@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Doctors List">
+        <lightning-button label="Fetch Doctors" onclick={handleFetchDoctors}></lightning-button>
+        <template if:true={doctors}>
+            <ul>
+                <template for:each={doctors} for:item="doctor">
+                    <li key={doctor.Id}>{doctor.Full_Name__c} - {doctor.Specialization__c}</li>
+                </template>
+            </ul>
+        </template>
+        <template if:true={error}>
+            <p>Error fetching doctors: {error}</p>
+        </template>
+    </lightning-card>
+</template>

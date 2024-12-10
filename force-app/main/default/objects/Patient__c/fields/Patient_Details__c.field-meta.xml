@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patient_Details__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;Date Admitted: &quot; &amp; TEXT(Date_Admitted__c) &amp; &quot; | &quot; &amp; &quot;Date Discharged: &quot; &amp; TEXT(Date_Discharged__c)</formula>
+    <label>Patient Details</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

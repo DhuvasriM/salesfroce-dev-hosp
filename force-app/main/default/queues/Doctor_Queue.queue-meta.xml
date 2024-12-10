@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Doctor Queue</name>
+    <queueMembers>
+        <users>
+            <user>enushamani@gmail.com</user>
+            <user>manideepa@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Treatment__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Doctor's Appointments">
+        <template if:true={appointments}>
+            <ul>
+                <template for:each={appointments} for:item="appointment">
+                    <li key={appointment.Id}>
+                        {appointment.Patient__r.Full_Name__c} - {appointment.Appointment_Type__c}
+                    </li>
+                </template>
+            </ul>
+        </template>
+        <template if:true={error}>
+            <p>Error fetching appointments: {errorMessage}</p>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Air_Conditioned</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Custom_Compact_Layout</compactLayoutAssignment>
+    <label>Air Conditioned</label>
+    <picklistValues>
+        <picklist>Facilities__c</picklist>
+        <values>
+            <fullName>Ac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extra Bedding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tv</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wi-fi</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

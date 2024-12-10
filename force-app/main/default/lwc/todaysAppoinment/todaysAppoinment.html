@@ -1,0 +1,17 @@
+<template>
+    <lightning-card  title="Todays appoinments">
+    <lightning-button label="view Todays appoinments" onclick={handleClick}></lightning-button>
+
+
+    <template lwc:if={apptointments}>
+        <template for:each={apptointments} for:item="app">
+            <div key={app.id} class="slds-box slds-m-arround">
+                
+               {app.Patient__r.First_Name__c} {app.Patient__r.Last_Name__c} {app.Name} {app.Status__c} {app.Date_and_Time__c}
+            </div>
+        </template>
+    </template>
+
+</lightning-card>
+    
+</template>

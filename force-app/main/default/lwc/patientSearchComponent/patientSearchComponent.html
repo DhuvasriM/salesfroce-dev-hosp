@@ -1,0 +1,27 @@
+<template>
+    
+    <lightning-card title="Patient Search" class="slds-card" style="background-color: #e3f2fd">
+        <div class="slds-m-around_medium">
+            <lightning-input label="Search Patient by Name" value={patientName} onchange={handleNameChange}></lightning-input>
+            <lightning-button label="Search" onclick={searchPatient}></lightning-button>
+        </div>
+        
+        <template if:true={patientDetails}>
+            <lightning-card class="slds-card">
+                <div class="slds-card__header">
+                    <img src={patientLogoUrl} alt="Logo">
+                    <span class="slds-card__title">Patient Details</span>
+                </div>
+                <div class="slds-card__body">
+                    <p><strong>Name:</strong> {patientDetails.First_Name__c}</p>
+                    <p><strong>Age:</strong> {patientDetails.Age__c}</p>
+                    <p><strong>Address:</strong> {patientDetails.Address__c}</p>
+                    <p><strong>Contact No:</strong> {patientDetails.Contact_Number__c}</p>
+                    <p><strong>Room No:</strong> {patientDetails.Room_No__r.Name}</p>
+                    <p><strong>Stage:</strong> {patientDetails.Stage__c}</p>
+                    <p><strong>Doctor Assigned:</strong> {patientDetails.Assigned__r.Full_Name__c}</p>
+                </div>
+            </lightning-card>
+        </template>
+    </lightning-card>
+</template>

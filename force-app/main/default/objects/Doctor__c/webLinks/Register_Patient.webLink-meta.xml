@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Register_Patient</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Register Patient</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://cognizant-4c0-dev-ed.develop.lightning.force.com/lightning/o/Patient__c/new?count=1&amp;nooverride=1&amp;useRecordTypeCheck=1&amp;navigationLocation=LIST_VIEW&amp;uid=173080068335887552&amp;backgroundContext=%2Flightning%2Fo%2FPatient__c%2Flist%3FfilterName%3D__Recent</url>
+</WebLink>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bed_Assignment</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Is_Stay_Needed__c , NOT(  ISNULL(Room_No__c)) , Room_No__r.No_of_Beds_Available__c &lt;=0)</errorConditionFormula>
+    <errorDisplayField>Room_No__c</errorDisplayField>
+    <errorMessage>Sorry, Beds are not available for the Room allocated</errorMessage>
+</ValidationRule>

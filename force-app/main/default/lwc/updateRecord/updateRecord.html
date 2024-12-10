@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Update Patient List">
+        <div class="slds-m-around_medium">
+            <template if:true={patientList.data}>
+                <lightning-datatable
+                is-loading="true"
+                key-field="Id"
+                data={patientList.data}
+                columns={columns}
+                onsave={saveHandler}
+                draft-values={draftValues}
+                sorted-by="FirstName"
+                sorted-direction="asc">
+                </lightning-datatable>
+            </template>
+        </div>        
+    </lightning-card>
+</template>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facilities__c</fullName>
+    <externalId>false</externalId>
+    <label>Facilities</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ac</fullName>
+                <default>false</default>
+                <label>Ac</label>
+            </value>
+            <value>
+                <fullName>Non-Ac</fullName>
+                <default>false</default>
+                <label>Non-Ac</label>
+            </value>
+            <value>
+                <fullName>Wi-fi</fullName>
+                <default>false</default>
+                <label>Wi-fi</label>
+            </value>
+            <value>
+                <fullName>Tv</fullName>
+                <default>false</default>
+                <label>Tv</label>
+            </value>
+            <value>
+                <fullName>Extra Bedding</fullName>
+                <default>false</default>
+                <label>Extra Bedding</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,32 @@
+.slds-m-around_medium {
+    margin: 1rem;
+}
+.slds-card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    
+    background-color: #259ac9;
+}
+.slds-card__header {
+    background-color: #0070d2;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.slds-card__header img {
+    height: 40px;
+    margin-right: 0.5rem;
+}
+.slds-card__body {
+    padding: 1rem;
+}
+.slds-card__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+p {
+    margin: 0.5rem 0;
+}
+strong {
+    color: #0070d2;
+}

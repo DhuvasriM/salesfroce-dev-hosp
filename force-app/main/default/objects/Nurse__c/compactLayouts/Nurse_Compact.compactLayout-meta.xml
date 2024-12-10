@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nurse_Compact</fullName>
+    <fields>Name</fields>
+    <fields>Employee__c</fields>
+    <fields>Nurse_Name__c</fields>
+    <fields>CreatedById</fields>
+    <label>Nurse Compact</label>
+</CompactLayout>

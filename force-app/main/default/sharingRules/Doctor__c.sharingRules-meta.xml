@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Doctor_Details_Sharing_2</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Doctor Details Sharing-2</label>
+        <sharedTo>
+            <role>Intern</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Specialization__c</field>
+            <operation>equals</operation>
+            <value>Gastroenterology,Neurology,Pediatrics</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Doctor_Details_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Doctor Details Sharing</label>
+        <sharedTo>
+            <role>Junior_Doctor</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Senior_Doctor</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

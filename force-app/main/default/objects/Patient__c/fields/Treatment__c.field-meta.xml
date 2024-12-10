@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Treatment__c</fullName>
+    <externalId>false</externalId>
+    <label>Treatment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Treatment_Types__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Therapies</fullName>
+                <default>false</default>
+                <label>Therapies</label>
+            </value>
+            <value>
+                <fullName>Specialty care</fullName>
+                <default>false</default>
+                <label>Specialty care</label>
+            </value>
+            <value>
+                <fullName>General Surgery</fullName>
+                <default>false</default>
+                <label>General Surgery</label>
+            </value>
+            <value>
+                <fullName>Emergency Department</fullName>
+                <default>false</default>
+                <label>Emergency Department</label>
+            </value>
+            <value>
+                <fullName>Chemotherapy</fullName>
+                <default>false</default>
+                <label>Chemotherapy</label>
+            </value>
+            <value>
+                <fullName>Blood Services</fullName>
+                <default>false</default>
+                <label>Blood Services</label>
+            </value>
+            <value>
+                <fullName>Surgery</fullName>
+                <default>false</default>
+                <label>Surgery</label>
+            </value>
+            <value>
+                <fullName>Radiology</fullName>
+                <default>false</default>
+                <label>Radiology</label>
+            </value>
+            <value>
+                <fullName>Primary care</fullName>
+                <default>false</default>
+                <label>Primary care</label>
+            </value>
+            <value>
+                <fullName>Cardiac rehabilitation</fullName>
+                <default>false</default>
+                <label>Cardiac rehabilitation</label>
+            </value>
+            <value>
+                <fullName>Radiation therapy</fullName>
+                <default>false</default>
+                <label>Radiation therapy</label>
+            </value>
+            <value>
+                <fullName>Psychodynamic Therapy</fullName>
+                <default>false</default>
+                <label>Psychodynamic Therapy</label>
+            </value>
+            <value>
+                <fullName>Psychiatry</fullName>
+                <default>false</default>
+                <label>Psychiatry</label>
+            </value>
+            <value>
+                <fullName>Pediatrics</fullName>
+                <default>false</default>
+                <label>Pediatrics</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Curative</controllingFieldValue>
+            <valueName>Therapies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Curative</controllingFieldValue>
+            <valueName>Specialty care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Curative</controllingFieldValue>
+            <valueName>General Surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Curative</controllingFieldValue>
+            <valueName>Emergency Department</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Curative</controllingFieldValue>
+            <controllingFieldValue>Preventative</controllingFieldValue>
+            <valueName>Chemotherapy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preventative</controllingFieldValue>
+            <valueName>Blood Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preventative</controllingFieldValue>
+            <valueName>Surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preventative</controllingFieldValue>
+            <controllingFieldValue>Palliative</controllingFieldValue>
+            <valueName>Radiology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preventative</controllingFieldValue>
+            <controllingFieldValue>Palliative</controllingFieldValue>
+            <valueName>Primary care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Palliative</controllingFieldValue>
+            <valueName>Cardiac rehabilitation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Palliative</controllingFieldValue>
+            <valueName>Radiation therapy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Palliative</controllingFieldValue>
+            <valueName>Psychodynamic Therapy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Palliative</controllingFieldValue>
+            <valueName>Psychiatry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Palliative</controllingFieldValue>
+            <valueName>Pediatrics</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>
